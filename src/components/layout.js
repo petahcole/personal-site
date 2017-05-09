@@ -1,12 +1,15 @@
 import React, {PropTypes} from 'react';
-import Header from './common/Header.js'
+import Header from './common/Header.js';
+import HomePage from './homePage/HomePage'
 
 class Layout extends React.Component {
+
   render()  {
-    return(
+    return  (
       <div className="container-fluid">
         <Header/>
         {this.props.children}
+        {/*<HomePage/>*/}
       </div>
     )
   }

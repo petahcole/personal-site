@@ -1,19 +1,18 @@
 import React, { PropTypes } from 'react';
-import Link from 'react-router';
+import DataSection from './DataSection';
 
 const DataBlock = ({data})  =>  {
     return  (
-        <div className="block"
-             id={data.id}>
-            <h3>{data.title}</h3>
-            <p>TEST TEXT</p>
-            <p>{data.body}</p>
+        <div className="block">
+            {data.map(section  =>   
+                <DataSection key={section.id} section={section}/>
+            )}
         </div>
     )
 }
 
 DataBlock.propTypes = {
-    data: PropTypes.object.isRequired
+    data: PropTypes.array.isRequired
 }
 
 export default DataBlock
