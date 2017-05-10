@@ -6,10 +6,9 @@ class Layout extends React.Component {
 
   render()  {
     return  (
-      <div className="container-fluid">
+      <div>
         <Header/>
-        {this.props.children}
-        {/*<HomePage/>*/}
+        {this.props.children}      
       </div>
     )
   }

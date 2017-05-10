@@ -20,7 +20,7 @@ const data = [
     {
         id: "doppel",
         title: "Doppel",
-        body: "A flower inventory management system that I built for a local business.",
+        body: "A flower inventory management system that allows you to add items to a \"cart\" and export csv files.",
         tech: "MEAN stack app bundled up with Webpack. This was my capstone project for Galvanize. Note: Working through deploying to AWS so the app isn't live yet.",
         videoLink: null,
         link: null,
@@ -29,7 +29,7 @@ const data = [
     {
         id: "johnny-four",
         title: "Johnny-Four",
-        body: "An IoT robot with live-streaming video that you drive from the browswer.",
+        body: "An IoT robot with live-streaming video that lets you drive from the browser.",
         tech: "Raspberry Pi 3, Angular, Node, Express, Socket.io, h264 Live Player.",
         videoLink: null,
         link: "https://johnny-four.firebaseapp.com/",
@@ -48,7 +48,7 @@ const data = [
         id: "scrible",
         title: "Scrible",
         body: "A daily writing app that provides a prompt, word count, and ability to store in local storage",
-        tech: "jQuery, HTML, custom CSS.",
+        tech: "jQuery, HTML, Materialize, custom CSS.",
         videoLink: null,
         link: "https://scrible-11933.firebaseapp.com/",
         githubLink: "https://github.com/petahcole/scrible"
@@ -57,7 +57,7 @@ const data = [
         id: "contact",
         title: "Contact",
         body: "email me: cbatson89@gmail.com | github: https://github.com/petahcole | linkedIn: https://www.linkedin.com/in/petahcole",
-        tech: "jQuery, HTML, custom CSS.",
+        tech: null,
         videoLink: null,
         link: null,
         githubLink: null

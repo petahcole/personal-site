@@ -3,8 +3,10 @@ import { Link, IndexLink} from 'react-router';
 
 const Header = () =>  {
   return (
-    <nav>
-     <h1>Speak Friend and Scroll</h1>
+    <nav className="navbar navbar-fixed-top">
+      <div className="container">
+        <h1>Speak Friend and Scroll</h1>
+      </div>
     </nav>
   );
 };

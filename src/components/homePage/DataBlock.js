@@ -3,7 +3,7 @@ import DataSection from './DataSection';
 
 const DataBlock = ({data})  =>  {
     return  (
-        <div className="block">
+        <div>
             {data.map(section  =>   
                 <DataSection key={section.id} section={section}/>
             )}

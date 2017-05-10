@@ -11,8 +11,6 @@ class HomePage extends React.Component {
     }
 
     render()    {
-        // console.log(this.props)
-        // console.log(this.state)
        const {data} = this.props;
        return   (
            <DataBlock data={data}/>
