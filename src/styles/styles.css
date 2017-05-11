@@ -4,7 +4,7 @@
     vertical-align: middle;
     padding-left: 20em;
     padding-right: 20em;
-    padding-top: 20em;
+    padding-top: 15em;
 }
 
 .navbar    {
@@ -15,9 +15,16 @@
     background-color: #393E41;
     color: #F6F7EB;
 }
+.hello-world  h3  {    
+    color: #F6F7EB;
+}
 
 .about-me    {
     background-color: #F6F7EB;
+}
+
+.about-me  h3  {
+    color: #333;
 }
 
 .doppel    {
@@ -39,12 +46,20 @@
 .contact    {
     background-color: #393E41;
     color: #F6F7EB;
+    font-size: 14px;
+    padding-left: 10em !important;
+    padding-right: 10em !important;
+}
+
+.contact  h3  {    
+    color: #F6F7EB;    
 }
 
 h3  {
     margin-top: 0px !important;   
     margin-bottom: 5em; 
     font-family: 'Kreon', serif !important;
+    font-size: 32px !important;
 }
 
 h1  {
@@ -54,4 +69,25 @@ h1  {
 
 p  {
    font-family: 'Ubuntu', sans-serif !important;
+   font-size: 24px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #3F88C5 !important;
+}
+
+a:active {
+    text-decoration: none !important;
+    color: #333 !important;
 }

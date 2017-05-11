@@ -56,7 +56,7 @@ const data = [
     {
         id: "contact",
         title: "Contact",
-        body: "email me: cbatson89@gmail.com | github: https://github.com/petahcole | linkedIn: https://www.linkedin.com/in/petahcole",
+        body: "cbatson89@gmail.com | https://github.com/petahcole | https://www.linkedin.com/in/petahcole",
         tech: null,
         videoLink: null,
         link: null,
